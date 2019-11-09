@@ -31,7 +31,7 @@ def won?(board)
         return index
 
       elsif board.include? "X" || "O"
-        return false
+        false
       else
         false
       end
