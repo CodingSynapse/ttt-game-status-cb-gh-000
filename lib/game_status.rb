@@ -30,13 +30,9 @@ def won?(board)
 
       if winningcombo
         return index
-
-      elsif
-        false
-      else
-        false
       end
     end
+    return false
 end
 
 def full?(board)
