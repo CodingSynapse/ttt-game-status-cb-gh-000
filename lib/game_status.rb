@@ -26,9 +26,7 @@ def won?(board)
       position_2 = board[combo_1]
       position_3 = board[combo_2]
 
-      winningcombo = position_1 == "X" && position_2 =="X" && position_3 == "X" || "O" && position_2 =="O" && position_3 == "O"
-
-      if winningcombo
+      if position_1 == "X" && position_2 =="X" && position_3 == "X" || "O" && position_2 =="O" && position_3 == "O"
         return index
       end
     end
