@@ -31,7 +31,7 @@ def won?(board)
       if winningcombo
         return index
 
-      elsif board.find?
+      elsif
         false
       else
         false
