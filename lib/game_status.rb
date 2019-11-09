@@ -30,7 +30,7 @@ def won?(board)
       if winningcombo
         return index
 
-      elsif board.include? " "
+      elsif board.include? "X" || "O"
         return false
       else
         false
