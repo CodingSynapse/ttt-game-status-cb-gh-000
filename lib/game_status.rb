@@ -30,7 +30,7 @@ def won?(board)
       if winningcombo
         return index
 
-      elsif board.all? == nil
+      elsif board.all? == " "
         false
       else
         false
