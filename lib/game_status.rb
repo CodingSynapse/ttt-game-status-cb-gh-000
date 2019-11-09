@@ -16,6 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
+
     WIN_COMBINATIONS.each do |index|
       combo_0 = index[0]
       combo_1 = index[1]
@@ -30,10 +31,10 @@ def won?(board)
       if winningcombo
         return index
 
-      elsif !winningcombo && !board.include?(" ")
+      elsif board.find?
         false
       else
-        false
+        nil
       end
     end
 end
