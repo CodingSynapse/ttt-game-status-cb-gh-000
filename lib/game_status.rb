@@ -35,7 +35,7 @@ end
 
 def full?(board)
   board.all? do |move|
-    move == "X" || "O"
+    move == "X" || move == "O"
   end
 end
 
