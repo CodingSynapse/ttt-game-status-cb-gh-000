@@ -28,8 +28,6 @@ def won?(board)
 
       if position_1 == "X" && position_2 =="X" && position_3 == "X" || "O" && position_2 =="O" && position_3 == "O"
         return index
-      elsif draw?(board) == true
-        false
       end
     end
     return false
