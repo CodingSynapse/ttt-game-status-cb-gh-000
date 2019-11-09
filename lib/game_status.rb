@@ -33,8 +33,6 @@ def won?(board)
 
       elsif board.find?
         false
-      else
-        nil
       end
     end
 end
